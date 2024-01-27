@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 6%;
+    margin-top: 40%;
+    width: 250px;
+    height: 350px;
+    background-color: purple;
+    padding: 5%;
+}
+
+.qr-code {
+    border-radius: 6%;
+    /* margin: 5%; */
+    /* margin-top: -50px; */
+    width: 100%;
+    height: 65%;
+    background-color: blue;
+    /* display: flex; */
+    background-image: url('./images/image-qr-code.png');
+}
+
+.title {
+    padding: 10%;
+    padding-top: 97%;
+}
+
+h3 {
+    font-size: medium;
+    text-align: center;
+}
+
+.text {
+    margin:4% 7%;
+
+}
+
+h5 {
+    font-size: x-small;
+    color: gray;
+}
